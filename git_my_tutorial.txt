@@ -52,3 +52,6 @@ git config --get-regexp alias - список всех alias-ов
 git checkout commit 4v21a8r - перейти к данному коммиту
 git stash - вернуться к нынешнему коммиту не внося никаких изменений
 git reset --hard <tag/branch/commit id> - откатит вас (переместит HEAD) на указанный коммит (W! диструктивная команда)
+//удаление коммита с серевера:
+1)git reset --hard <commit>
+2)git push --force
