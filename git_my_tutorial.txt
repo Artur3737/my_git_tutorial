@@ -59,6 +59,10 @@ git reset --hard <tag/branch/commit id> - откатит вас (перемес�
 1)git reset --hard <commit>
 2)git push --force
 
+избавиться от ненужных (untracked files)
+1)git add .
+2)git reset --hardd origin/branch
+
 
 //----------------------//------------------
             if your merge with problem work in vim
