@@ -100,4 +100,12 @@ git pull origin release_mobile_18.1 --rebase  -  pull dev in needed branch
 git add . or (webstorm VCS/git/resolve conflicts) 
 git rebase --continue
 git push -f  -  done)
+
+    ___git revert -если в каком нибудь среднем коммите вашего PR что-то удалилось при очередном реиейзе или что-то пошло не так
+git revert a8979024fb98
+git reset HEAD src/***/line-desktop.less    - вывести из состояния add (stage)
+git checkout -- src/***/line-desktop.less   - untracked file; как будто ты его не трогал
+git revert --continue
+пше push - и это будет новый коммит
+
   
