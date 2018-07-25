@@ -108,4 +108,6 @@ git checkout -- src/***/line-desktop.less   - untracked file; как будто 
 git revert --continue
 пше push - и это будет новый коммит
 
-  
+  __rename commit 
+git commit --amend -m "New commit message"  for previous commit 
+git commit --amend  and opened vim
