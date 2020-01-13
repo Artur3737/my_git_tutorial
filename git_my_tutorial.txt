@@ -119,6 +119,5 @@ change branch to another target with already approved changes:
 3) cherry-pich needed commit/s
 4) fors push new branch in needed release
 
-revert special commit
-
+___revert special commit
 $ git revert 0ad5a7a6
